@@ -3,6 +3,8 @@
 //
 
 .card {
+  @extend .text-sass-color;
+  @extend .bg-gray-sass-color;
   position: relative;
   display: flex;
   flex-direction: column;
